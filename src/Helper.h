@@ -1,7 +1,7 @@
 /*
 nmfgpu4R - R binding for the nmfgpu library
 
-Copyright (C) 2015-2016  Sven Koitka (svenkoitka@fh-dortmund.de)
+Copyright (C) 2015-2016  Sven Koitka (sven.koitka@fh-dortmund.de)
 
 This file is part of nmfgpu4R.
 
@@ -25,7 +25,7 @@ along with nmfgpu4R.  If not, see <http://www.gnu.org/licenses/>.
 #include "nmfgpu.h"
 #include <Rcpp.h>
 
-#if __cplusplus >= 201402L
+#if __cplusplus >= 201402L 
 using std::make_unique;
 #else
 namespace Details {
